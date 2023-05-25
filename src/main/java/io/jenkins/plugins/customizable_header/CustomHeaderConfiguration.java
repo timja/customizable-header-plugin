@@ -78,8 +78,8 @@ public class CustomHeaderConfiguration extends GlobalConfiguration {
   }
 
   /**
-   * The globally configured Headercolor.
-   * @return global headercolor.
+   * The globally configured HeaderColor.
+   * @return global headerColor.
    */
   public HeaderColor getHeaderColor() {
     return headerColor;
@@ -88,7 +88,7 @@ public class CustomHeaderConfiguration extends GlobalConfiguration {
   /**
    * The active header color.
    * If the user has overwritten the colors those colors are used.
-   * @return
+   * @return active HeaderColor
    */
   public HeaderColor getActiveHeaderColor() {
     User user = User.current();
